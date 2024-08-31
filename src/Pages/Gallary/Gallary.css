@@ -1,0 +1,38 @@
+.img-details{
+display:flex;
+justify-content: space-between;
+}
+.img-gallary{
+    position: relative;
+}
+.img{
+    width:550px
+}
+.artist{
+    position: relative;
+    right:200px;
+    /* top:30px; */
+    background-color: white;
+    /* width:200px; */
+    height:fit-content
+
+}
+.artist h2{
+    font-size: 40px;
+}
+.artist-image{
+     position: absolute;
+     top: 80%;  
+     /* right:1px    */
+}
+.description1{
+    font-size: 20px;
+    opacity: .5;
+    width:40%;
+    display: inline-block;}
+.description1 label{
+    font-size: 200px;
+    opacity: .3;
+}
+
+    

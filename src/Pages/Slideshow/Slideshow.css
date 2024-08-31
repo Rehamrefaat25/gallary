@@ -1,0 +1,70 @@
+
+.slideshow-container {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  
+  .prev, .next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+  }
+ 
+  
+  .next {
+    right: 0;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+ 
+    .show{
+        position: relative;
+    }
+    .slideshow-image{
+        width:550px
+    }
+    .artist-name{
+        position: absolute;
+        width:400px;
+        left:300px;
+        /* top:30px; */
+        background-color: white;
+        height:fit-content
+    
+    }
+    .artist-name h2{
+        font-size: 60px;
+    }
+    .artist-name p{
+opacity: .5;
+font-size: 20px;
+    }
+
+    .artist2{
+         position: absolute;
+         top: 80%;  
+         /* right:1px    */
+    }
+    .description{
+        font-size: 20px;
+        opacity: .5;
+        width:40%;
+        display: inline-block;}
+    .description label{
+        font-size: 200px;
+        opacity: .3;
+    }
+    .slide{display: flex;
+    justify-content: space-between;}
+        
